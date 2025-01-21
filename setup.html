@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Eterchain</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.jpg" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+    <div class="wrapper d-flex flex-column">
+        <header id="header" class="header d-flex align-items-center sticky-top">
+            <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+                <a href="index.html" class="logo d-flex align-items-center me-auto">
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <img src="assets/img/logo.png" alt="logo">
+                    <h1 class="sitename">Eterchain</h1>
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="index.html">Dashboard<br></a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                        <li><a href="gateways.html">Gateways</a></li>
+                        <li><a href="eter.html">My Eter</a></li>
+                        <li><a href="setup.html" class="active">Setup</a></li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+
+                <a class="btn-getstarted" href="index.html#about">Connect Wallet</a>
+
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- Setup Section -->
+            <section id="setup" class="team section">
+
+                <div class="container-setup">
+                    <div class="status-setup">
+                        <h1>Eter Node Setup</h1>
+                        <div class="indicator-setup">
+                            <span>Node Status:</span>
+                            <strong style="color: red;">Inactive</strong>
+                        </div>
+                    </div>
+
+                    <div class="node-resources-setup">
+                        <h2>Update Your Node Resources</h2>
+                        <div>
+                            <span>No GPU Selected</span>
+                            <span>CPU: 5</span>
+                            <span>RAM: 8 GB</span>
+                            <span>Storage: 200 GB</span>
+                        </div>
+                        <button>Update Node</button>
+                    </div>
+
+                    <div class="setup-steps-setup">
+                        <h2>Setup your Eter Node</h2>
+
+                        <div class="step-setup">
+                            <h3>1. Enable WSL and Install a Linux Distribution</h3>
+                            <p>If WSL is already enabled, you can skip this step. If not, <a href="#">click here</a> to
+                                see
+                                more.</p>
+                        </div>
+
+                        <div class="step-setup">
+                            <h3>2. Install and Configure Docker Desktop</h3>
+                            <p>If Docker is already configured for WSL, you can skip this step. If not, <a
+                                    href="#">click
+                                    here</a> to see more.</p>
+                        </div>
+
+                        <div class="step-setup">
+                            <h3>3. Install Spheron CLI</h3>
+                            <code>curl -sL https://sphnctl.sh | bash</code>
+                        </div>
+
+                        <div class="step-setup">
+                            <h3>4. Generate & Start Your Fizz Node</h3>
+                            <p>Click the button below to fetch your unique Fizz command:</p>
+                        </div>
+
+                        <div class="generate-command-setup">
+                            <button>Generate Command</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="copyright text-center ">
+                    <p>© <span>Copyright</span> <strong class="px-1 sitename">Eterchain</strong> <span>All Rights
+                            Reserved</span></p>
+                </div>
+                <div class="social-links d-flex justify-content-center">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <!-- Scroll Top -->
+        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+                class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Preloader -->
+        <div id="preloader"></div>
+
+        <!-- Main JS File -->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
